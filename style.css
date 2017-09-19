@@ -1,0 +1,52 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+h1 {
+   text-align: center;
+}
+
+h4 {
+    text-align: center;
+    
+}
+
+h3 {
+    text-align: center;
+    border-bottom: solid grey;
+    border-top: solid grey;
+}
+body   {
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    
+}
+
+.pleft {
+    position: relative;
+    width: 45%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
+ }
+.pright {
+    position: relative;
+    width: 45%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
+}
