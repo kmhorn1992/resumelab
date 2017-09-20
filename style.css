@@ -1,7 +1,9 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #82c7e0;
     overflow: hidden;
+    align-content: center;
+    margin: auto;
 }
 
 /* Style the links inside the navigation bar */
@@ -13,21 +15,31 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    align-content: center;
 }
 
 h1 {
    text-align: center;
+    margin-bottom: 0px;
 }
 
 h4 {
     text-align: center;
+    margin-top: 0px;
     
 }
 
 h3 {
     text-align: center;
-    border-bottom: solid grey;
-    border-top: solid grey;
+    border-bottom: solid ;
+    border-top: solid black;
+    
+
+}
+
+h5 {
+    text-align: left;
+    margin-top: 0px
 }
 body   {
     margin-left: 25%;
@@ -42,6 +54,7 @@ body   {
     display: inline-block;
     text-align: justify;
     vertical-align: top;
+    padding: 1em;
  }
 .pright {
     position: relative;
@@ -49,4 +62,26 @@ body   {
     display: inline-block;
     text-align: justify;
     vertical-align: top;
+    padding: 1em;
 }
+.tech1 {
+    position: relative;
+    width: 45%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;                                       
+}
+
+.tech2 {
+    position: relative;
+    width: 45%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: text-top;
+    padding: 1em;
+}
+
+.row {
+    background-color: aliceblue;
+    
+        
