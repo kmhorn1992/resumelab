@@ -2,16 +2,15 @@
 .topnav {
     background-color: #82c7e0;
     overflow: hidden;
-    margin: auto;
+    
     text-align: center;
 }
 
-/* Style the links inside the navigation bar */
+
 .topnav a {
     
     display:inline-block;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -31,8 +30,8 @@ h4 {
 
 h3 {
     text-align: center;
-    border-bottom: solid ;
-    border-top: solid black;
+    border-bottom: solid grAY;
+    border-top: solid turquoise;
     
 
 }
@@ -69,7 +68,9 @@ body   {
     width: 45%;
     display: inline-block;
     text-align: justify;
-    vertical-align: top;                                       
+    vertical-align: top; 
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .tech2 {
@@ -77,21 +78,98 @@ body   {
     width: 45%;
     display: inline-block;
     text-align: justify;
-    vertical-align: text-top;
+    vertical-align: bottom;
     padding: 1em;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
-.row {
-    background-color: aliceblue;
-    margin-left: 25%;
-    margin-right: 25%;
+h5{
+    margin-bottom: 0px;
+}
+#date {
+    color: aquamarine;
+    margin-top: 0px;
+}
+.Bikini {
+    margin-top: 0px;
+}
+   
+.krusty {
+    margin-top: 0px;
+}
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: text-top;
+    align-content: center;    
+    
 }
     
-#Submit_button {
-    margin-left: 25;
-} 
+input[type=send] {
+    background-color: white;
+    color: #82c7e0;
+    padding: 12px 20px;
+    margin-top: 10%;
+    border-radius: 1px;
+    cursor: pointer;
+    align-content: center;
+}
+        
+.container {
+    border-radius: 5px;
+    background-color: #82c7e0;
+    padding: 50px;
+    margin: 10%;
+    align-content: center;
+    vertical-align: text-top;
     
-    
+}
+
+#fname {
+    color: lightgray;
+}
+
+#firstname{
+    color: white;
+}
+
+.footer {
+    border-top-color: solid turquoise;
+    align-content: center;
+}
+
+.footl {
+    display: inline-block;
+    align-content: center;
+    text-align: justify;
+    position: relative;
+    margin-left: 40%;
+    color: lightseagreen;
+    padding: 1em;
     
     
         
+
+}
+
+.footr{
+    display: inline-block;
+    color: lightseagreen;
+    margin-bottom: 0px;
+}
+h6 {
+    border-top: solid turquoise;
+}
+
+.year {
+    display: inline-block;
+     margin-left: 47%;
+    margin-top: 0px;
+    color: lightseagreen;
+}
