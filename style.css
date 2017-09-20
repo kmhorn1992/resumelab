@@ -2,7 +2,6 @@
 .topnav {
     background-color: #82c7e0;
     overflow: hidden;
-    align-content: center;
     margin: auto;
     text-align: center;
 }
@@ -16,7 +15,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    align-content: center;
+    
 }
 
 h1 {
