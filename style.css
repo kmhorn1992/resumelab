@@ -4,12 +4,13 @@
     overflow: hidden;
     align-content: center;
     margin: auto;
+    text-align: center;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    display: block;
+    
+    display:inline-block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -83,5 +84,15 @@ body   {
 
 .row {
     background-color: aliceblue;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+    
+#Submit_button {
+    margin-left: 25;
+} 
+    
+    
+    
     
         
