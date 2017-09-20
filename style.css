@@ -1,8 +1,7 @@
-/* Add a black background color to the top navigation */
+
 .topnav {
     background-color: #82c7e0;
     overflow: hidden;
-    
     text-align: center;
 }
 
